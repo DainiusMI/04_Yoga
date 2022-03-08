@@ -28,6 +28,8 @@ nav>a {
     margin-right: 35px;   
 }
 nav>a:focus {
-    background-color: #FF4622;
+    text-decoration: underline red;
+    text-underline-offset: 5px;
+    
 }
 
