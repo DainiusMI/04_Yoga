@@ -1,0 +1,28 @@
+main {
+    display: inline-block;
+    width: 950px;
+    margin-top: 5px;
+    margin-left: calc((100% - 950px) / 2);
+     
+    
+}
+section {
+
+}
+div {
+    margin-top: 15%;
+    width: 45%;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+p {
+    margin-top: 0px
+    }
+div>a {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FF4622;
+}
