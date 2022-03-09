@@ -1,9 +1,78 @@
+:root {
+    /*  
+        --name=value;
+    
+    */
+    --red:#FF4622;
+    --projwid:1100px;
+    --margle:calc((100% - var(--projwid)) / 2);
+
+}
+body {
+    background-image: url(../img/clean_background.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    background-position: 50% 5%; /* top center */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*        spliited          */
+
+header {
+    display: inline-block;
+    float:left;
+    width: 100%;
+
+    
+}
+img { 
+    width: 15%;
+    margin-left: 50px;
+}
+nav {     
+    float: right;
+}
+a {
+    float:left;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height:15px;
+    margin-top: 15px;    
+    font-size: 14px;
+    color: black; 
+    border-bottom: solid transparent 3px;    
+    ;
+ 
+}
+nav>a {
+    margin-right: 35px;   
+}
+
+
+nav>a:focus {
+    border-color: #FF4622;
+    font-weight: bold;    
+}
+
+nav>a:hover {
+    border-color: #FF4622;
+}
+/*
+nav>a:first-child { 
+    border-color: #FF4622;
+
+}
+*/
+/*        spliited          */
+
 main {
     display: inline-block;
     width: 1100px;
     margin-top: 5px;
-    margin-left: calc((100% - 1100px) / 2);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: var(--margle);
+   
      
     
 }
@@ -30,4 +99,9 @@ div>a {
     background-color: #FF4622;
     border-radius: 4px;
 }
-
+div>a:hover {
+    background-color: white;
+    color: #FF4622;
+ 
+h1>span {color:#FE4421;
+}
